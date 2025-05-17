@@ -1,3 +1,6 @@
+* {
+    font-family: initial;
+}
 h1.css_intro {
     color: green;
     text-align: center;
@@ -8,4 +11,27 @@ h1.css_intro {
 }
 h2.css_intro{
     background-color: aqua;
+}
+.highlighted{
+    color: green;
+}
+
+.parent .child{
+    color: red;
+    background-color: blanchedalmond;
+    border: 4px dashed violet;
+    font-size: 28px;
+    width: 200;
+    height: 400;
+    font font-weight: bold;
+
+}
+.child{
+    background-color: aqua;
+}
+body{
+    background-color: hwb(60 0% 0%);
+}
+.highlighted{
+    background-color: red;
 }
